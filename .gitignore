@@ -2,3 +2,6 @@ target/
 .idea/
 *.iml
 .vscode/
+local-keystore.p12
+local-truststore.p12
+local-customer-service.pem
