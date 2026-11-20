@@ -52,7 +52,7 @@ public class CustomerGrpcService extends CustomerServiceGrpc.CustomerServiceImpl
                     customers.add(Customer.newBuilder()
                             .setId(request.getId())
                             .setName("Customer " + request.getId())
-                            .setEmail("customer@example.com")
+                            .setEmail("grpc2@example.com")
                             .build());
                 }
 
